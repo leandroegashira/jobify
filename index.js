@@ -1,6 +1,9 @@
 const express = require('express')  
 const app = express()  
 
+const sqlite = require('sqlite')
+const dbConnection = sqlite.open('banco.sqlite', {Promise})
+
 app.set('view engine', 'ejs')
 
 app.use(express.static('public'))

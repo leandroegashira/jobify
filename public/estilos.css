@@ -3,6 +3,15 @@ body {
 }
 
 
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
 h2 {
     background-color: #c4c4c4;
     padding: 8px;
